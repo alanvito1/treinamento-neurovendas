@@ -6,6 +6,52 @@
   <title>Caminho do Fechamento - Treinamento de Elite</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    /* Estilos específicos para a área do desenvolvedor */
+    .dev-section {
+      margin-top: 6rem;
+      background: linear-gradient(135deg, rgba(255, 0, 51, 0.05) 0%, rgba(212, 175, 55, 0.02) 100%);
+      border: 1px solid var(--glass-border-red);
+      border-radius: 16px;
+      padding: 3rem;
+      text-align: center;
+      backdrop-filter: blur(12px);
+    }
+    .dev-title {
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+    }
+    .dev-subtitle {
+      color: var(--gold);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      font-weight: 600;
+    }
+    .dev-contacts {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .contact-item {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--glass-border);
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      transition: all 0.3s;
+      color: var(--text-main);
+      text-decoration: none;
+    }
+    .contact-item:hover {
+      border-color: var(--gold);
+      background: rgba(212, 175, 55, 0.05);
+      transform: translateY(-3px);
+    }
+  </style>
 </head>
 <body>
   <div class="bg-glow"></div>
@@ -21,9 +67,9 @@
 
     <main class="modules-grid">
       <!-- Introdução -->
-      <div class="card animate" style="animation-delay: 0.05s; border-color: rgba(245, 158, 11, 0.5);">
+      <div class="card animate" style="animation-delay: 0.05s; border-color: var(--glass-border-red);">
         <div>
-          <div class="module-num" style="color: #fff;">COMECE AQUI</div>
+          <div class="module-num" style="color: var(--accent);">COMECE AQUI</div>
           <h3>Introdução ao Curso</h3>
           <p>Boas-vindas, visão geral da jornada e a transformação em NeuroCloser.</p>
         </div>
@@ -103,14 +149,14 @@
       </div>
 
       <!-- Laboratório de Role Play -->
-      <div class="card animate" style="animation-delay: 0.55s; border-color: rgba(245, 158, 11, 0.3); background: rgba(245, 158, 11, 0.02);">
+      <div class="card animate" style="animation-delay: 0.55s; border-color: var(--glass-border-gold);">
         <div>
-          <div class="module-num">ARENA PRÁTICA</div>
+          <div class="module-num" style="color: var(--gold);">ARENA PRÁTICA</div>
           <h3>Laboratório de Role Play</h3>
           <p>Treine com perfis de clientes reais: O Cético, O Imediatista, O Analítico e O Ocupado.</p>
         </div>
         <div class="card-footer">
-          <a href="roleplay.html" class="btn" style="border-color: var(--accent); color: var(--accent);">Entrar na Arena</a>
+          <a href="roleplay.html" class="btn" style="border-color: var(--gold); color: var(--gold);">Entrar na Arena</a>
         </div>
       </div>
 
@@ -127,8 +173,22 @@
       </div>
     </main>
 
+    <!-- Seção do Desenvolvedor (Marketing) -->
+    <section class="dev-section animate" style="animation-delay: 0.7s;">
+      <div class="dev-title">PROJETO DESENVOLVIDO POR ALAN</div>
+      <div class="dev-subtitle">Desenvolvedor Senior Full Stack Especializado em Consórcio</div>
+      <p style="max-width: 800px; margin: 0 auto; color: var(--text-muted);">
+        Transformando a complexidade do mercado de consórcios em soluções digitais de alta performance. 
+        Este treinamento foi arquitetado e codificado com foco em resultados, unindo tecnologia de ponta e estratégias de conversão.
+      </p>
+      <div class="dev-contacts">
+        <a href="mailto:alan.riogrande@embracon.com.br" class="contact-item">📧 alan.riogrande@embracon.com.br</a>
+        <a href="tel:41999609939" class="contact-item">📞 (41) 99960-9939</a>
+      </div>
+    </section>
+
     <footer style="text-align: center; color: var(--text-muted); font-size: 0.9rem; padding: 2rem 0;">
-      <p>&copy; 2026 Caminho do Fechamento. Todos os direitos reservados.</p>
+      <p>&copy; 2026 Caminho do Fechamento. Desenvolvido por Alan.</p>
     </footer>
   </div>
 
