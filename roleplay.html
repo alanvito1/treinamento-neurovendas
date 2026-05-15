@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratório de Role Play - Caminho do Fechamento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    .module-content {
+      background: var(--card-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 3rem;
+      margin-bottom: 3rem;
+      backdrop-filter: blur(12px);
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--accent);
+    }
+    h3 {
+      font-size: 1.3rem;
+      margin: 1.5rem 0 0.5rem 0;
+      color: #fff;
+    }
+    p {
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      font-size: 1.05rem;
+    }
+    .roleplay-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .scenario-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+      padding: 2rem;
+      transition: all 0.3s;
+    }
+    .scenario-card:hover {
+      border-color: var(--accent);
+      background: rgba(245, 158, 11, 0.02);
+      transform: translateY(-5px);
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    .badge-hard { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+    .badge-medium { background: rgba(245, 158, 11, 0.2); color: #fbbf24; }
+    .badge-easy { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+    
+    .strategy {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      border-left: 3px solid var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-glow"></div>
+  
+  <div class="container">
+    <header class="animate">
+      <div class="subtitle">Arena de Treinamento</div>
+      <h1>Laboratório de Role Play</h1>
+      <p style="color: var(--text-muted);">Pratique com diferentes perfis de clientes e afie suas técnicas de fechamento.</p>
+    </header>
+
+    <main class="module-content animate">
+      <h2>Simulador de Cenários</h2>
+      <p>Reúna-se com um colega ou treine em frente ao espelho. Um faz o papel do cliente (seguindo o perfil abaixo) e o outro faz o papel do NeuroCloser. O objetivo é contornar as objeções e chegar ao fechamento ou à próxima etapa (sondagem/visita).</p>
+
+      <div class="roleplay-grid">
+        <!-- Cenário 1 -->
+        <div class="scenario-card">
+          <div class="badge badge-hard">Dificuldade: Difícil</div>
+          <h3>O Cético "Traumatizado"</h3>
+          <p><strong>Perfil:</strong> João, 45 anos, empresário. Já fez um consórcio no passado, pagou por 3 anos e nunca foi contemplado. Ele acha que consórcio é "enganação" e que o dinheiro fica preso.</p>
+          <p><strong>Objeção Principal:</strong> *"Isso não funciona, eu já perdi dinheiro com isso. Prefiro deixar na poupança."*</p>
+          <div class="strategy">
+            <strong style="color: var(--accent);">Estratégia NeuroCloser:</strong> Use a validação empática. Não discorde. Diga que entende a frustração dele porque o mercado antigo realmente era focado em sorte. Apresente a estratégia de lances embutidos e fixos como a "Nova Era do Consórcio Inteligente".
+          </div>
+        </div>
+
+        <!-- Cenário 2 -->
+        <div class="scenario-card">
+          <div class="badge badge-medium">Dificuldade: Média</div>
+          <h3>O Imediatista Ansioso</h3>
+          <p><strong>Perfil:</strong> Lucas, 28 anos, recém-casado. Quer comprar o primeiro imóvel para sair do aluguel. Ele tem pressa e acha que o financiamento é a única opção viável porque "muda logo".</p>
+          <p><strong>Objeção Principal:</strong> *"Eu preciso do imóvel agora. Não posso esperar anos para ser contemplado."*</p>
+          <div class="strategy">
+            <strong style="color: var(--accent);">Estratégia NeuroCloser:</strong> Faça a ancoragem de preço. Mostre o quanto ele vai rasgar de dinheiro em juros no financiamento (2 a 3 vezes o valor do imóvel). Use o Método MFA para mostrar como planejar a contemplação rápida com lance agressivo.
+          </div>
+        </div>
+
+        <!-- Cenário 3 -->
+        <div class="scenario-card">
+          <div class="badge badge-hard">Dificuldade: Difícil</div>
+          <h3>O Analítico Comparador</h3>
+          <p><strong>Perfil:</strong> Roberto, 38 anos, investidor/engenheiro. Ele faz contas de tudo. Quer comparar a taxa de administração do consórcio com o rendimento de um fundo de investimento imobiliário.</p>
+          <p><strong>Objeção Principal:</strong> *"Se eu investir esse valor mensalmente, em X anos eu compro à vista. Não faz sentido pagar taxa de administração."*</p>
+          <div class="strategy">
+            <strong style="color: var(--accent);">Estratégia NeuroCloser:</strong> Use o conceito de Alavancagem Patrimonial. Mostre que o consórcio permite ele comprar o bem de maior valor antes de ter todo o dinheiro, e que a valorização do imóvel geralmente supera a taxa de administração. Venda o "tempo" que ele ganha.
+          </div>
+        </div>
+
+        <!-- Cenário 4 -->
+        <div class="scenario-card">
+          <div class="badge badge-easy">Dificuldade: Fácil</div>
+          <h3>O Ocupado "Sem Tempo"</h3>
+          <p><strong>Perfil:</strong> Cláudia, 35 anos, médica. Tem dinheiro, quer investir em imóveis para renda, mas nunca tem tempo para atender ligações ou ir a reuniões.</p>
+          <p><strong>Objeção Principal:</strong> *"Me manda tudo por WhatsApp que eu vejo depois. Estou sem tempo agora."*</p>
+          <div class="strategy">
+            <strong style="color: var(--accent);">Estratégia NeuroCloser:</strong> Respeite o tempo dela, mas não mande a proposta. Use a técnica do "Filtro de Elite": *"Doutora, eu sei que seu tempo vale ouro, e o meu também. Justamente por isso eu não mando PDF genérico. Eu preciso de apenas 3 minutos de ligação para entender seu objetivo e te mandar a estratégia exata. Podemos falar às 19h ou amanhã às 8h?"*
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-buttons" style="margin-top: 3rem;">
+        <a href="index.html" class="btn">⬅ Voltar ao Hub</a>
+      </div>
+    </main>
+
+    <footer style="text-align: center; color: var(--text-muted); font-size: 0.9rem; padding: 2rem 0;">
+      <p>&copy; 2026 Caminho do Fechamento. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

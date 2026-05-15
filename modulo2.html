@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 2: A Máquina de Atração - Caminho do Fechamento</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    .module-content {
+      background: var(--card-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 3rem;
+      margin-bottom: 3rem;
+      backdrop-filter: blur(12px);
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--accent);
+    }
+    p {
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      font-size: 1.05rem;
+    }
+    .pdf-container {
+      margin: 2rem 0;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--glass-border);
+    }
+    .video-container {
+      margin-top: 3rem;
+      text-align: center;
+    }
+    video {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 12px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+    }
+    .ppt-link {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--glass-border);
+      color: #fff;
+      text-decoration: none;
+      margin: 1rem 0;
+      transition: all 0.3s;
+    }
+    .ppt-link:hover {
+      border-color: var(--accent);
+      background: rgba(245, 158, 11, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-glow"></div>
+  
+  <div class="container">
+    <header class="animate">
+      <div class="subtitle">Módulo 02</div>
+      <h1>A Máquina de Atração</h1>
+      <p style="color: var(--text-muted);">Material completo: PDF, Slides e Vídeo.</p>
+    </header>
+
+    <main class="module-content animate">
+      
+      <h2>1. Leitura do Material Completo (PDF)</h2>
+      <p>Leia abaixo o material completo gerado para este módulo.</p>
+      
+      <div class="pdf-container">
+        <embed src="caminho_do_fechamento/modulo_2/Módulo 2_ A Máquina de Atração – Dominando a Prospecção Ativa.pdf" type="application/pdf" width="100%" height="600px" />
+      </div>
+
+      <h2>2. Slides da Aula (PowerPoint)</h2>
+      <p>Baixe os slides para acompanhar a aula.</p>
+      
+      <a href="caminho_do_fechamento/modulo_2/Slides_Modulo2.pptx" class="ppt-link" download>
+        📊 Baixar PowerPoint: Slides Módulo 2
+      </a>
+
+      <div class="video-container">
+        <h2>3. 🎬 Vídeo Resumo do Módulo</h2>
+        <p style="margin-bottom: 1.5rem;">Assista ao resumo prático deste módulo.</p>
+        <video controls>
+          <source src="caminho_do_fechamento/modulo_2/Resumo_Módulo_2__Prospecção.mp4" type="video/mp4">
+          Seu navegador não suporta a tag de vídeo.
+        </video>
+      </div>
+
+      <div class="nav-buttons">
+        <a href="modulo1.html" class="btn">⬅ Módulo Anterior</a>
+        <a href="modulo3.html" class="btn">Próximo Módulo ➡</a>
+      </div>
+    </main>
+
+    <footer style="text-align: center; color: var(--text-muted); font-size: 0.9rem; padding: 2rem 0;">
+      <p>&copy; 2026 Caminho do Fechamento. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
